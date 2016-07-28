@@ -1,11 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
-</head>
-<body>
-  <h1>Hello Front-End</h1>
-</body>
+<html>
+    <head>
+        <title>ToDo List</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+  </head>
+  <body id="container">
+    <h2>ToDo List</h2>
+    <form name="checkListForm">
+      <div class="button1"><input id="submit" value="" type="text" name="checkListItem" onclick="this.value='';"/><button class="button1">+</button></div>
+      <div class="button2"><input id="submit" value="" type="text" name="checkListItem" onclick="this.value='';"/><button class="button2">-</button></div>
+      <ol></ol>
+    </form>
+    <br/>
+    <div class="item"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
 </html>
